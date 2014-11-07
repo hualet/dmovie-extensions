@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+import sys
+import json
+import subprocess
+
+input = sys.stdin.readline()
+json_str = input[4:]
+url = json.loads(json_str)["url"]
+subprocess.Popen(["deepin-movie", url])

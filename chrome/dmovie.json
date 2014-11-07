@@ -1,0 +1,9 @@
+{
+  "name": "dmovie",
+  "description": "DMovie",
+  "path": "/usr/bin/deepin-movie-proxy",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ibjdhbneijlnfcljgddamdnbomkigeog"
+  ]
+}
